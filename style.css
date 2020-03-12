@@ -71,7 +71,7 @@ textarea{
   border-top: 1px dashed #000000;
 }
 
-/* TODO: figure out what this does */
+/* style of rows set in javascript if row hour is less than current hour */
 .past {
   /* change background color */
   background-color: #d3d3d3;
@@ -79,7 +79,7 @@ textarea{
   color: white;
 }
 
-/* TODO: figure out what this does */
+/* styles rows set in javascript if hour row equals current hour */
 .present {
   /* change background color */
   background-color: #ff6961;
@@ -87,7 +87,7 @@ textarea{
   color: white;
 }
 
-/* TODO: figure out what this does */
+/* styles rows set in javascript if hour is greater than current hour */
 .future {
   /* change background color */
   background-color: #77dd77;
