@@ -1,71 +1,118 @@
+/* body element style */
 body {
+  /* change text font */
   font-family: 'Open Sans', sans-serif;
+  /* change text size */
   font-size: 16px;
+  /* change line height */
   line-height: 1;
 }
 
+/* textarea element style */
 textarea{
-  background: transparent;
+  /* change background color */
+  background-color: transparent;
+  /* remove borders */
   border: none;
+  /* remove resizing behavior*/
   resize: none;
+  /* change text color */
   color: #000000;
+  /* change left border style */
   border-left: 1px solid black;
+  /* change padding style */
   padding: 10px;
 }
 
+/* .jumbotron class bootstrap component style */
 .jumbotron {
   text-align: center;
+  /* change background color */
   background-color: transparent;
+  /* change text color */
   color: black;
-  border-radius: 0;
+  /* remove borders */
+  border: none;
+  /* change top border style */
   border-bottom: 10px solid black;
 }
 
+/* .description class style */
 .description{
+  /* change text wrap behavior - whitespace preserved, wrap when necessary */
   white-space: pre-wrap;
 }
 
+/* .time-block class style added to bootstrap rows */
 .time-block{
+  /* center text */
   text-align: center;
+  /* round border edges */
   border-radius: 15px;
 }
 
+/* .row class bootstrap row style */
 .row {
+  /* change text wrap behavior - whitespace preserved, wrap when necessary */
   white-space: pre-wrap;
+  /* change height of element */
   height: 80px;
+  /* change top border style */
   border-top: 1px solid white;;
 }
 
+/* .hour class added to bootstrap columns containing hour text */
 .hour {
+  /* change background color */
   background-color: #ffffff;
+  /* change text color */
   color: #000000;
+  /* change top border style */
   border-top: 1px dashed #000000;
 }
 
+/* TODO: figure out what this does */
 .past {
+  /* change background color */
   background-color: #d3d3d3;
+  /* change text color */
   color: white;
 }
 
+/* TODO: figure out what this does */
 .present {
+  /* change background color */
   background-color: #ff6961;
+  /* change text color */
   color: white;
 }
 
+/* TODO: figure out what this does */
 .future {
+  /* change background color */
   background-color: #77dd77;
+  /* change text color */
   color: white;
 }
 
+/* .saveBtn Font Awesome class for save buttons */
 .saveBtn {
+  /* change left border style */
   border-left: 1px solid black;
+  /* round top-right border edge */
   border-top-right-radius: 15px;
+  /* round bottom-left border edge */
   border-bottom-right-radius: 15px;
+  /* change background color */
   background-color: #06AED5;
+  /* change text color */
   color: white;
 }
 
+/* .saveBtn i:hover Font Awesome class for save buttons - hover pseudo class behavior*/
 .saveBtn i:hover {
+  /* change text size */
   font-size: 20px;
+  /* fade style change from normal to :hover style */
   transition: all .3s ease-in-out;
 }
